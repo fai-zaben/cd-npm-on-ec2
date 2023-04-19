@@ -55,5 +55,5 @@ workflows:
       jobs:
         - create_infrastructure
         - smoke_test:
-            reruires:
+            requires:
               - create_infrastructure

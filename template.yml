@@ -6,7 +6,7 @@
      Properties:
        SecurityGroups:
          - !Ref InstanceSecurityGroup
-       KeyName: ../udacity.pem
+       KeyName: udacity
        ImageId: 'ami-007855ac798b5175e' 
        InstanceType: t3.micro
    InstanceSecurityGroup:
@@ -18,4 +18,5 @@
            FromPort: '22'
            ToPort: '22'
            CidrIp: 0.0.0.0/0 
+
         

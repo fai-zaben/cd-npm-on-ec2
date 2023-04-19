@@ -6,7 +6,6 @@
      Properties:
        SecurityGroups:
          - !Ref InstanceSecurityGroup
-       # Change this, as applicable to you      
        KeyName: udacity
        ImageId: 'ami-007855ac798b5175e' 
        InstanceType: t3.micro

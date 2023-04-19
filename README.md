@@ -3,4 +3,4 @@
 ```
 ansible-playbook main-remote.yml -i inventory --private-key udacity.pem
 ```
-> udacitypem should be in the current directory
+> udacitypem should be in the current directory or update the path if not
